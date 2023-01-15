@@ -29,7 +29,7 @@ const Main = () => {
 		document.querySelector('.modal').classList.add('display_none');
 	};
 
-	const [Content, setContent] = useState(<Professores closeModal={closeModal} showModal={showModal} />);
+	const [Content, setContent] = useState(<Home closeModal={closeModal} showModal={showModal} />);
 	const [modalContent, setModalContent] = useState();
 
 	return (
