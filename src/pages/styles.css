@@ -14,7 +14,6 @@
 .container {
 	font-family: 'Roboto', sans-serif;
 	display: grid;
-	width: 100vw;
 	min-height: 100vh;
 	grid-template-areas: 'header ' 'content ';
 	grid-template-columns: auto;
@@ -26,7 +25,7 @@
 header {
 	grid-area: header;
 	background-color: var(--color0);
-
+	box-shadow: 0px 0px 7px 0px rgb(0 0 0 / 40%);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -38,6 +37,21 @@ header .sidebar__logo--img {
 	height: 60px;
 }
 
+@media screen and (min-width: 1280px) {
+	.header__title img {
+		display: none;
+	}
+	.sidebar__logo {
+		width: 60px;
+		margin-left: 25%;
+	}
+
+	nav#nav {
+		font-size: 1.3rem;
+		margin-top: 50px;
+	}
+}
+
 .sidebar {
 	grid-area: sidebar;
 
@@ -45,8 +59,9 @@ header .sidebar__logo--img {
 	height: 100vh;
 	box-shadow: 1px 0px 10px #00000055;
 	color: var(--color1);
-	padding: 20px;
+	padding-left: 2px;
 
+	min-width: 180px;
 	position: absolute;
 	left: -100vw;
 	transition: 0.2ms;
@@ -56,7 +71,6 @@ header .sidebar__logo--img {
 	position: absolute;
 	background-color: var(--color3);
 	height: 100vh;
-	padding: 20px;
 	left: 0;
 	transition: 0.2ms;
 }
@@ -91,8 +105,10 @@ header .sidebar__logo--img {
 	color: var(--color1);
 }
 
-.sidebar__logo {
-	width: 40px;
+@media screen and (max-width: 1280px) {
+	.sidebar__logo {
+		width: 40px;
+	}
 }
 
 @media screen and (min-width: 1280px) {
@@ -114,11 +130,20 @@ header .sidebar__logo--img {
 	.header__menuIcon {
 		display: none;
 	}
+
+	.nav__link {
+		height: 50px;
+		padding-left: 20px;
+	}
 }
 
 .nav__link {
-	margin: 20px;
 	color: var(--color1);
+	margin: 2px 0px 5px 0px;
+	height: 50px;
+	padding-left: 20px;
+	display: flex;
+	align-items: center;
 }
 
 .nav__link:hover {
@@ -133,6 +158,8 @@ header .sidebar__logo--img {
 	border-left: 2px solid var(--color0);
 	padding-left: 20px;
 	margin-left: -2px;
+
+	background: #ff000047;
 }
 
 /* Conteudo */
@@ -143,6 +170,7 @@ header .sidebar__logo--img {
 	border-radius: 6px;
 	margin: 20px;
 	padding: 20px;
+	box-shadow: 0px 0px 7px 0px rgb(0 0 0 / 40%);
 }
 
 .content__title {
