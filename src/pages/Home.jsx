@@ -1,16 +1,12 @@
 import React from 'react';
+import LogoDesktop from '../images/banner_home.jpg';
+import LogoMobile from '../images/banner_home_mobile.jpg';
 
 const Home = () => {
 	return (
-		<div>
-			<h1>SGA - Sistema de Gestão de Academico</h1>
-			<h2> Gestão de:</h2>
-			<ul>
-				<li>Cursos</li>
-				<li>Disciplinas</li>
-				<li>Professores</li>
-				<li>Alunos</li>
-			</ul>
+		<div className="home_content">
+			<img className="home_img--Desktop" src={LogoDesktop} alt="Logo UNICRUD Desktop" />
+			<img className="home_img--Mobile" src={LogoMobile} alt="Logo UNICRUD Mobile" />
 			<h3>
 				Desenvolvido por: <a href="http://rafaelpatrick.com.br/">Rafael Patrick de Souza</a>
 			</h3>

@@ -43,7 +43,6 @@ header .sidebar__logo--img {
 	}
 	.sidebar__logo {
 		width: 60px;
-		margin-left: 25%;
 	}
 
 	nav#nav {
@@ -78,8 +77,9 @@ header .sidebar__logo--img {
 .sidebar_header {
 	display: flex;
 	padding: 2px;
-	justify-content: space-between;
+	justify-content: space-evenly;
 	margin-bottom: 20px;
+	padding-top: 20px;
 }
 
 .sidebar__menuIcon {
@@ -244,9 +244,17 @@ header .sidebar__logo--img {
 		width: 64px;
 		height: 35px;
 	}
+
+	.home_img--Mobile {
+		display: none;
+	}
 }
 
 @media screen and (max-width: 1280px) {
+	.home_img--Desktop {
+		display: none;
+	}
+
 	.btn__remove::before {
 		content: '\26D4';
 	}
@@ -379,4 +387,7 @@ input {
 
 input[type='date'] {
 	justify-self: center;
+}
+.home_content {
+	text-align: center;
 }
