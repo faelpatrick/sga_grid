@@ -209,10 +209,10 @@ header .sidebar__logo--img {
 	}
 
 	.btn__edit::before {
-		content: '';
+		content: 'Editar';
 	}
 	.btn__edit {
-		content: 'Editar';
+		content: '';
 		width: 64px;
 		height: 35px;
 	}
