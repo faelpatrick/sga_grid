@@ -341,19 +341,19 @@ td.table_td_options {
 	content: '';
 	color: #fff;
 	float: right;
-	font-size: 28px;
+	font-size: 16px;
 	font-weight: bold;
-	margin: -70px -40px;
+	margin: -74px -45px;
 	background: red;
-	padding: 20px;
+	padding: 8px;
 	border-radius: 50px;
 	border: 2px solid black;
 }
 .modal__close::before {
 	content: '\2a02';
 	position: relative;
-	padding-right: 8px;
-	font-size: 2rem;
+	padding-right: 8px 10px;
+	font-size: 1.2rem;
 }
 
 .modal__close:hover,

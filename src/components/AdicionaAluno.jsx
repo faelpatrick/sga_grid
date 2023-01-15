@@ -78,12 +78,12 @@ const AddStudant = ({ id, setStudantId, closeModal, getStudants }) => {
 		<>
 			<div>
 				<form onSubmit={handleSubmit}>
-					<label htmlFor="nomecurso" id="formStudantName">
-						Nome do Curso
+					<label htmlFor="nomealuno" id="formStudantName">
+						Nome do Aluno
 					</label>
 					<input
 						type="text"
-						placeholder="Studant Name"
+						placeholder="Nome do Aluno"
 						value={studantName}
 						onChange={(e) => setStudantName(e.target.value)}
 					/>
