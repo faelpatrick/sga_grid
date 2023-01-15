@@ -42,7 +42,7 @@ const Disciplinas = (props) => {
 				<table id="table__cards" className="table__cards">
 					<thead>
 						<tr id="card-titles" className="card-titles">
-							<td> Nome do Disciplina(a)</td>
+							<td> Nome da Disciplina</td>
 							<td> Semestre</td>
 							<td> Curso</td>
 							<td colSpan="2">Opções</td>
