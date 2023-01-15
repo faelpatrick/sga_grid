@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/sga_grid/static/css/main.49311793.css",
+    "main.css": "/sga_grid/static/css/main.bdf12634.css",
     "main.js": "/sga_grid/static/js/main.0a4e4fe6.js",
     "index.html": "/sga_grid/index.html",
-    "main.49311793.css.map": "/sga_grid/static/css/main.49311793.css.map",
+    "main.bdf12634.css.map": "/sga_grid/static/css/main.bdf12634.css.map",
     "main.0a4e4fe6.js.map": "/sga_grid/static/js/main.0a4e4fe6.js.map"
   },
   "entrypoints": [
-    "static/css/main.49311793.css",
+    "static/css/main.bdf12634.css",
     "static/js/main.0a4e4fe6.js"
   ]
 }
