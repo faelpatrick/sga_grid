@@ -1,9 +1,9 @@
 # SGA - Sistema de Gestão Académico React App (CRUD)
 
-https://faelpatrick.github.io/sga_frontend/ 
+https://faelpatrick.github.io/sga_grid/
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 
 ## Available Scripts
 
