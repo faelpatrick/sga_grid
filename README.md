@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# SGA - Sistema de Gestão Académico React App (CRUD)
+
+https://faelpatrick.github.io/sga_frontend/ 
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
