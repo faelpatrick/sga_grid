@@ -7,7 +7,7 @@ https://faelpatrick.github.io/sga_grid/
 ﻿# SGA - Sistema de Gestão Académico React App (CRUD)
 
 
-Site criado durante aula da Alura.
+Site criado como teste em entrevista para vaga de Front-End.
 | :placard: Vitrine.Dev |     |
 | -------------  | --- |
 | :sparkles: Nome        | **sga_grid**
